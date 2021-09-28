@@ -34,6 +34,6 @@
 
 ## Result
 
-![Alt text](roc_after_SMOTE.png?raw=true "Title")
+![Alt text](Roc_after_SMOTE.png?raw=true "Title")
 
 ### AUC = 0.931
