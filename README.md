@@ -20,20 +20,17 @@
 
 ## Techniques Used
 
-1. Visualizing the data and filling missing value of each column with DecisionTreeClassifier
-2. To deal with data imbalance we use SMOTE - Synthetic Minority
-   Over-sampling Technique. 
-   * SMOTE creates synthetic (not duplicate) samples of the minority class. Hence 
-     making the minority class equal to the majority class. SMOTE does this 
-     by selecting similar records and altering that record one column at a 
-     time by a random amount within the difference to the neighbouring 
-     records.
-3. Use Logistic regression for training
-
-
+1. General Data cleaning and data handling and EDA.
+2. Feature Encoding and Feature Scaling with MinMaxScaler.
+3. Used Logistic regression, Support Vector Classifier(SVC) for training data.
+4. To deal with data imbalance we use SMOTE - Synthetic Minority Over-sampling Technique. 
+* SMOTE: creates synthetic (not duplicate) samples of the minority class. Hence 
+         making the minority class equal to the majority class. SMOTE does this 
+         by selecting similar records and altering that record one column at a 
+         time by a random amount within the difference to the neighbouring records.
 
 ## Result
 
 ![Alt text](roc_after_SMOTE.png?raw=true "Title")
 
-### AUC = 0.931
+### AUC after applying SMOTE = 0.931
