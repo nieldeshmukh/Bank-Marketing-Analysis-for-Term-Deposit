@@ -1,5 +1,5 @@
 # Bank-Marketing-Analysis
-![](term_deposit.png)
+![Alt text](term_deposit.png?raw=true "Title")
 
 ## Objective
 
@@ -34,12 +34,6 @@
 
 ## Result
 
-![](roc_after_SMOTE.png)
+![Alt text](roc_after_SMOTE.png?raw=true "Title")
 
 ### AUC = 0.931
-
-
-class|precision|recall|f1-score
------------|-----------|--------|--------
-0|0.98|0.85|0.91
-1|0.44|0.89|0.59
